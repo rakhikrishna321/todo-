@@ -1,0 +1,45 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Logo */
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  /* Title - App Name */
+  .navbar-title {
+    font-size: 22px;
+    font-family: 'monospace';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Account Icon */
+  .navbar-account {
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .navbar {
+      padding: 10px 15px;
+    }
+  
+    .navbar-title {
+      font-size: 18px;
+    }
+  
+    .navbar-logo img {
+      height: 35px;
+    }
+  }
+  

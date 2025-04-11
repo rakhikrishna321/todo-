@@ -1,0 +1,57 @@
+/* Background styling */
+.add-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F5F5DC;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+/* Paper container */
+.MuiPaper-root {
+  display: flex;
+  width: 50%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white; /* White background for the form */
+}
+
+/* Form styling */
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+/* Title */
+.add-task-form h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Text fields */
+.add-task-form .MuiTextField-root {
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Add Task Button */
+.add-task-form .MuiButton-root {
+  margin-top: 20px;
+  background-color: #ffcc00 !important; /* Blue color */
+  color: black !important;
+  font-weight: bold;
+}
+
+.add-task-form .MuiButton-root:hover {
+  background-color: #ffcc00!important; /* Darker blue on hover */
+}
